@@ -37,3 +37,6 @@
  ```python
     $ python3 Analysis.py
  ```
+ <br></br>
+ 
+ #The logs folder contains logs generated in our tests. U could as well use them to process the analysis.py.
