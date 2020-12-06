@@ -25,9 +25,11 @@
  ```python
     $ python3 Master.py config.json <Scheduling Algo(RR/LL/RA)>
   ```
- - Run three workers with the following commands
+ - Run three workers with the following commands on three different terminals
  ```python
-    $ python3 Worker.py <port[4000/4001/4002]> <worker_id[1/2/3]>
+    $ python3 Worker.py 4000 1
+    $ python3 Worker.py 4001 2
+    $ python3 Worker.py 4002 3
  ```
  - Then run the requests.py to generate task queue
  ```python
