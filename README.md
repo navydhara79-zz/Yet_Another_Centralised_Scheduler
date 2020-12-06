@@ -23,7 +23,7 @@
 
 - Run the Master.py with command 
  ```python
-    $ python3 Master.py <Config.json> <Scheduling Algo(RR/LL/RA)>
+    $ python3 Master.py config.json <Scheduling Algo(RR/LL/RA)>
   ```
  - Run three workers with the following commands
  ```python
