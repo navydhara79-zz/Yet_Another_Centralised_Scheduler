@@ -12,11 +12,11 @@
   
 -logs
 
-    - logs_RR.txt
+    - log_RR.txt
   
-    - logs_LL.txt
+    - log_LL.txt
   
-    - logs_RA.txt
+    - log_RA.txt
   
 
 <h3>Steps to run:</h3>
