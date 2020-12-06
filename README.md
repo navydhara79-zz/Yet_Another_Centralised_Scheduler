@@ -19,7 +19,7 @@
     - log_RA.txt
   
 
-<h3>Steps to run:</h3>
+<h2>Steps to run:</h2>
 
 - Run the Master.py with command 
  ```python
