@@ -7,6 +7,8 @@
     - Worker.py
   
     - Analysis.py
+    
+    - config.json and requests.py 
   
 -logs
 
@@ -19,8 +21,6 @@
 
 <h3>Steps to run:</h3>
 
-- src folder has the Master.py, Worker.py, Analysis.py and also config.json and
-<br></br>
 - Run the Master.py with command 
  ```python
     $ python3 Master.py <Config.json> <Scheduling Algo(RR/LL/RA)>
