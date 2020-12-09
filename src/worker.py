@@ -1,10 +1,9 @@
-import socket
 import sys
-import threading as th
 import time
-from datetime import datetime
 import json
-
+import socket
+import threading as th
+from datetime import datetime
 portsent = int(sys.argv[1])
 
 
@@ -45,7 +44,7 @@ def recvFrmMaster():
             if(len(msg) > 0):
                 msg.decode("utf-8")
                 msg = json.loads(msg)
-                print("------------------------------------------------------------------------RECEIVED FROM MASTER------------------------------------------------------------------------")
+                print("\n............................................Task has been received from Master............................................\n")
                 if(len(msg) != 0):
                     print("Message : ", msg)
                 s.close()
@@ -66,7 +65,7 @@ def Recv_init():
             s.connect((socket.gethostname(), portsent))
             print('Established a Connection')
             s_no = s.recv(1024)
-            print("-----------------------------------------------------------------------RECEIVED------------------------------------------------------------------------------")
+            print("............................................Connection Succesful............................................")
             s.close()
             return s_no.decode("utf-8")
         except Exception as e:
